@@ -28,11 +28,17 @@ gem 'jbuilder', '2.5.0'
 # Use Font Awesome sass gem for adding items
 gem 'font-awesome-sass' , '4.6.2'
 
-# Use hirb for better database table display in console
+# Use Hirb for better database table display in console
 gem 'hirb', '0.7.3'
 
-# Use devise for user authentication
-gem 'devise','4.2.0'
+# Use Devise for user authentication
+gem 'devise', '4.2.0'
+
+# Use Stripe for payment processing
+gem 'stripe', '1.48.0'
+
+# Use Figaro for ENV variables
+gem 'figaro', '1.1.1'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
